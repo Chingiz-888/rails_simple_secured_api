@@ -17,6 +17,8 @@
 
 
 ====  ТЕСТИРУЕМ В CURL ============
+
+
 curl -X POST --data "email=ivan@mail.ru&password=888" http://localhost:3000/login.json
 
 protected API calls
